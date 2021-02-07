@@ -14,7 +14,7 @@ function calc() {
 	if (op == "add") {
 		calculate = a + b;
 	}
-	else if (op == "min") { 
+	else if (op == "sub") { 
 		calculate = a - b;
 	}
 	else if (op == "div") { 
@@ -25,6 +25,8 @@ function calc() {
 	}
 	
 	document.querySelector("#results").innerHTML = calculate;
+    document.querySelector("#results").innerHTML = calculate;
+    document.querySelector("#results").innerHTML = calculate;
 
-	console.log("hej so");
+	
 }
